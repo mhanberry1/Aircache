@@ -1,0 +1,32 @@
+{
+  "name": "aircache",
+  "version": "1.0.0",
+  "description": "This will allow two or more users to share files directly between one anouther without hosting the data on a server",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start_server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhanberry1/Aircache.git"
+  },
+  "keywords": [
+    "p2p",
+    "aircache",
+    "files"
+  ],
+  "author": "Madison Hanberry",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mhanberry1/Aircache/issues"
+  },
+  "homepage": "https://github.com/mhanberry1/Aircache#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "ws": "^7.3.1"
+  }
+}
