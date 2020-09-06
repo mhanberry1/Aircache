@@ -1,0 +1,28 @@
+accept-line can be found on "\C-j", "\C-m".
+backward-char can be found on "\eOD", "\e[D".
+backward-delete-char can be found on "\C-h", "\C-?".
+backward-word can be found on "\e[1;3D", "\e[1;5D".
+beginning-of-line can be found on "\eOH", "\e[H".
+bracketed-paste-begin can be found on "\e[200~".
+clear-screen can be found on "\C-l".
+complete can be found on "\C-i".
+delete-char can be found on "\e[3~".
+end-of-line can be found on "\eOF", "\e[F".
+forward-char can be found on "\eOC", "\e[C".
+forward-search-history can be found on "\C-s".
+forward-word can be found on "\e[1;3C", "\e[1;5C".
+kill-word can be found on "\e[3;5~".
+menu-complete can be found on "\C-n".
+menu-complete-backward can be found on "\C-p".
+next-history can be found on "\eOB", "\e[B".
+overwrite-mode can be found on "\e[2~".
+previous-history can be found on "\eOA", "\e[A".
+quoted-insert can be found on "\C-v".
+reverse-search-history can be found on "\C-r".
+self-insert can be found on "\C-a", "\C-b", "\C-c", "\C-e", "\C-f", ...
+transpose-chars can be found on "\C-t".
+unix-line-discard can be found on "\C-u".
+vi-eof-maybe can be found on "\C-d".
+vi-movement-mode can be found on "\e".
+vi-unix-word-rubout can be found on "\C-w".
+yank can be found on "\C-y".
