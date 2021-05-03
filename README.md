@@ -8,12 +8,12 @@ This will allow two or more users to share files directly between one another wi
 
 Currently, there are two implementations of the aircache server:
 
-- [Node.js](./node_implementation): This is the proof-of-concept implementation. It was written in node so that features could be implemented quickly. This version will see features first.
-- [C](./c_implementation): This is the production implementation of the server. It is designed to be compiled to an extremely lightweight binary and run without the need for shared libraries.
+- [Node.js](server/node_implementation): This is the proof-of-concept implementation. It was written in node so that features could be implemented quickly. This version will see features first.
+- [C](server/c_implementation): This is the production implementation of the server. It is designed to be compiled to an extremely lightweight binary and run without the need for shared libraries.
 
 ## Compiling the C Implementation
 
-- Navigate to the `c_implementation` directory
+- Navigate to the `server/c_implementation` directory
 - Run `make all`
 
 ## Deploying
@@ -22,12 +22,12 @@ Currently, there are two implementations of the aircache server:
 
 #### Node.js Implementation
 
-- Navigate to the `node_implementation` directory
+- Navigate to the `server/node_implementation` directory
 - Run `npm start`
 
 #### C Implementation
 
-- Navigate to the `c_implementation` directory
+- Navigate to the `server/c_implementation` directory
 - Execute `./server`
 
 ### Frontend Interface
