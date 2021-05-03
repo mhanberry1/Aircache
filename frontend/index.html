@@ -3,9 +3,12 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="index.css">	
-		<script src="index.js"></script>
+		<script type="module" src="js/index.js"></script>
 	</head>
 	<body>
-		<label id="status">No connection</label>
+		<p id="status">No connection</p>
+		<input type="file" id="fileInput" />
+		<h3>File contents:</h3>
+		<pre id="fileContent"></pre>
 	</body>
 </html>
